@@ -4,7 +4,7 @@ A sleek and interactive **Streamlit** dashboard for analyzing the *Online Retail
 
 ## Live Demo  
 Check out the app in action:  
-[![Live Dashboard](https://img.shields.io/badge/Live%20App-Streamlit-brightgreen)](https://dashboard-dwj8e2xgufkbaelhtjgzgc.streamlit.app/)
+[![Live App - Streamlit](https://img.shields.io/badge/Live%20App-Streamlit-brightgreen)](https://dashboard-dwj8e2xgufkbaelhtjgzgc.streamlit.app/)
 
 ---
 
