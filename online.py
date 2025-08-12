@@ -25,8 +25,8 @@ st.markdown(
 )
 
 # Load dataset
-df = pd.read_parquet(r"C:\Users\deepu\PycharmProjects\E_Commerce\final_data.parquet")
-
+# df = pd.read_parquet(r"C:\Users\deepu\PycharmProjects\E_Commerce\final_data.parquet")
+df = pd.read_parquet("final_data.parquet")
 
 # Changing the currency type
 def format_currency(num):
