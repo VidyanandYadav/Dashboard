@@ -12,15 +12,10 @@ The dashboard provides insights into sales performance, top products, customer t
 ## ✨ Features  
 
 - 📈 **Sales Trends** – Track revenue over time
-|-------------------------------------------------------------|
 - 🛍 **Top Products Analysis** – Identify best-selling items
-|-------------------------------------------------------------|
 - 🌍 **Geographic Insights** – Country-wise performance
-|-------------------------------------------------------------|
 - 👥 **Customer Insights** – High-value customers by spend
-|-------------------------------------------------------------|
 - 📊 **KPIs Overview** – Quick snapshot of business health
-|-------------------------------------------------------------|
 
 ---
 
