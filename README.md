@@ -23,7 +23,7 @@ The dashboard provides insights into sales performance, top products, customer t
 
 | Dashboard Overview | 
 |--------------------|
-| ![Overview](assets/dashboard_preview.png) 
+| ![Overview](Screenshot 2025-09-12 194734.png) 
 
 ---
 
