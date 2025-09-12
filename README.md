@@ -1,13 +1,17 @@
-# 📊 E-Commerce Sales Dashboard
+# 📊 E-Commerce Sales Dashboard  
 
-An interactive data visualization dashboard built with **Streamlit** for analyzing online retail sales data.  
-The dashboard provides insights into sales performance, top products, customer trends, and revenue breakdowns.
+An **interactive data visualization dashboard** built with **Streamlit** for analyzing online retail sales data.  
+The dashboard provides insights into sales performance, top products, customer trends, and revenue breakdowns.  
 
-🔗 **Live Demo:** [View Dashboard](https://dashboard-dwj8e2xgufkbaelhtjgzgc.streamlit.app/)
+🔗 **Live Demo:** [View Dashboard](https://dashboard-dwj8e2xgufkbaelhtjgzgc.streamlit.app/)  
+
+![GitHub stars](https://img.shields.io/github/stars/YourUsername/Dashboard?style=social)  
+![GitHub forks](https://img.shields.io/github/forks/YourUsername/Dashboard?style=social)  
+![GitHub license](https://img.shields.io/github/license/YourUsername/Dashboard)  
 
 ---
 
-## ✨ Features
+## ✨ Features  
 
 - 📈 **Sales Trends** – Track revenue over time  
 - 🛍 **Top Products Analysis** – Identify best-selling items  
@@ -17,16 +21,44 @@ The dashboard provides insights into sales performance, top products, customer t
 
 ---
 
-## 🖼 Screenshot
+## 🖼 Screenshots  
 
-![Dashboard Preview](assets/dashboard_preview.png)  
-*Example view of the interactive dashboard*
+| Dashboard Overview | Product Insights | Customer Trends |  
+|--------------------|------------------|-----------------|  
+| ![Overview](assets/dashboard_preview.png) | ![Products](assets/products_preview.png) | ![Customers](assets/customers_preview.png) |  
 
 ---
 
-## ⚙️ Installation & Usage
+## 🛠 Tech Stack  
 
-### 1️⃣ Clone the Repository
+- **Frontend & UI:** Streamlit  
+- **Data Analysis:** Pandas, NumPy  
+- **Visualization:** Matplotlib, Seaborn, Plotly  
+- **Deployment:** Streamlit Cloud  
+
+---
+
+## ⚙️ Installation & Usage  
+
+### 1️⃣ Clone the Repository  
 ```bash
 git clone https://github.com/YourUsername/Dashboard.git
 cd Dashboard
+## Install Dependencies
+pip install -r requirements.txt
+
+## Run the Dashboard
+streamlit run app.py
+
+## Project Structure
+├── app.py                # Main Streamlit app  
+├── requirements.txt      # Dependencies  
+├── assets/               # Images and screenshots  
+├── data/                 # Dataset (if included)  
+└── README.md             # Project documentation  
+
+
+
+
+
+
