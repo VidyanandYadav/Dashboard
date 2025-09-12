@@ -5,27 +5,30 @@ The dashboard provides insights into sales performance, top products, customer t
 
 🔗 **Live Demo:** [View Dashboard](https://dashboard-dwj8e2xgufkbaelhtjgzgc.streamlit.app/)  
 
-![GitHub stars](https://img.shields.io/github/stars/YourUsername/Dashboard?style=social)  
-![GitHub forks](https://img.shields.io/github/forks/YourUsername/Dashboard?style=social)  
-![GitHub license](https://img.shields.io/github/license/YourUsername/Dashboard)  
+
 
 ---
 
 ## ✨ Features  
 
-- 📈 **Sales Trends** – Track revenue over time  
-- 🛍 **Top Products Analysis** – Identify best-selling items  
-- 🌍 **Geographic Insights** – Country-wise performance  
-- 👥 **Customer Insights** – High-value customers by spend  
-- 📊 **KPIs Overview** – Quick snapshot of business health  
+- 📈 **Sales Trends** – Track revenue over time
+|-------------------------------------------------------------|
+- 🛍 **Top Products Analysis** – Identify best-selling items
+|-------------------------------------------------------------|
+- 🌍 **Geographic Insights** – Country-wise performance
+|-------------------------------------------------------------|
+- 👥 **Customer Insights** – High-value customers by spend
+|-------------------------------------------------------------|
+- 📊 **KPIs Overview** – Quick snapshot of business health
+|-------------------------------------------------------------|
 
 ---
 
 ## 🖼 Screenshots  
 
-| Dashboard Overview | Product Insights | Customer Trends |  
-|--------------------|------------------|-----------------|  
-| ![Overview](assets/dashboard_preview.png) | ![Products](assets/products_preview.png) | ![Customers](assets/customers_preview.png) |  
+| Dashboard Overview | 
+|--------------------|
+| ![Overview](assets/dashboard_preview.png) 
 
 ---
 
