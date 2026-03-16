@@ -1,62 +1,153 @@
-# 📊 E-Commerce Sales Dashboard  
+# 📊 E-Commerce Sales Dashboard
 
-An **interactive data visualization dashboard** built with **Streamlit** for analyzing online retail sales data.  
-The dashboard provides insights into sales performance, top products, customer trends, and revenue breakdowns.  
+An interactive **data analytics dashboard built using Streamlit** to analyze e-commerce sales data.
+This project helps explore **customer behavior, revenue trends, and product performance** using interactive filters and visualizations.
 
-🔗 **Live Demo:** [View Dashboard](https://dashboard-dwj8e2xgufkbaelhtjgzgc.streamlit.app/)  
-
-
+The dashboard allows users to dynamically analyze sales by **country, product, and date range**.
 
 ---
 
-## ✨ Features  
+## 🚀 Live Demo
 
-- 📈 **Sales Trends** – Track revenue over time
-- 🛍 **Top Products Analysis** – Identify best-selling items
-- 🌍 **Geographic Insights** – Country-wise performance
-- 👥 **Customer Insights** – High-value customers by spend
-- 📊 **KPIs Overview** – Quick snapshot of business health
+🔗 **Streamlit App:**
+https://mobile-priceprediction-004.streamlit.app/
 
 ---
 
-## 🖼 Screenshots  
+## 🎯 Project Objective
 
-| Dashboard Overview | 
-|--------------------|
-| ![Overview](Screenshot 2025-09-12 194734.png) 
+The goal of this project is to transform raw e-commerce transaction data into meaningful insights through **interactive visualizations and business metrics**.
 
----
+The dashboard enables users to:
 
-## 🛠 Tech Stack  
-
-- **Frontend & UI:** Streamlit  
-- **Data Analysis:** Pandas, NumPy  
-- **Visualization:** Matplotlib, Seaborn, Plotly  
-- **Deployment:** Streamlit Cloud  
+* Monitor sales performance
+* Analyze revenue trends over time
+* Identify top-performing products
+* Discover high-value customers
+* Explore country-wise sales insights
 
 ---
 
-## ⚙️ Installation & Usage  
+## 📂 Dataset Description
 
-### 1️⃣ Clone the Repository  
-```bash
-git clone https://github.com/YourUsername/Dashboard.git
-cd Dashboard
-## Install Dependencies
-pip install -r requirements.txt
+The dataset contains **e-commerce transaction records** with customer purchases from different countries.
 
-## Run the Dashboard
-streamlit run app.py
+### Key Columns
 
-## Project Structure
-├── app.py                # Main Streamlit app  
-├── requirements.txt      # Dependencies  
-├── assets/               # Images and screenshots  
-├── data/                 # Dataset (if included)  
-└── README.md             # Project documentation  
+* **InvoiceNo** – Unique invoice number for each transaction
+* **CustomerID** – Unique customer identifier
+* **Description** – Product name or description
+* **Quantity** – Number of units purchased
+* **Date** – Transaction date
+* **Country** – Customer location
+* **Total Revenue** – Revenue generated from each transaction
 
+---
 
+## ⚙️ Technologies Used
 
+* **Python**
+* **Streamlit**
+* **Pandas**
+* **Matplotlib**
+* **Parquet Dataset Format**
 
+---
 
+## 📊 Dashboard Features
 
+### 📈 Business Metrics
+
+The dashboard displays key performance indicators:
+
+* Total Revenue
+* Total Quantity Sold
+* Total Invoices
+* Unique Customers
+
+---
+
+### 📅 Time-Based Analysis
+
+Users can analyze **monthly revenue trends** using dynamic visualizations.
+
+This helps identify:
+
+* Seasonal sales patterns
+* Growth trends
+* Revenue fluctuations
+
+---
+
+### 🌍 Country-Wise Analysis
+
+Users can select a country and explore:
+
+* Top products generating revenue
+* Top customers by spending
+* Products with highest quantity sold
+* Revenue trend for the selected country
+
+---
+
+### 📦 Product-Wise Analysis
+
+Users can select a product and analyze:
+
+* Revenue trend for that product
+* Top countries purchasing the product
+* Quantity sold across regions
+
+---
+
+### 🎛 Interactive Filters
+
+The dashboard includes multiple interactive filters:
+
+* **Date Range Filter**
+* **Country Selection**
+* **Product Selection**
+
+These filters allow users to perform **customized data exploration**.
+
+---
+
+## 📂 Project Structure
+
+```text
+Dashboard
+│
+├── final_data.parquet        # Dataset
+├── app.py                    # Streamlit dashboard application
+├── README.md                 # Project documentation
+```
+
+---
+
+## 📈 Example Insights
+
+Using this dashboard, businesses can quickly discover insights such as:
+
+* Which countries generate the highest revenue
+* Which products are most popular
+* Who the most valuable customers are
+* How sales change over time
+
+---
+
+## 🎓 Learning Outcomes
+
+This project helped me learn:
+
+* Building **interactive dashboards using Streamlit**
+* Data analysis using **Pandas**
+* Creating **visualizations with Matplotlib**
+* Designing **data-driven business insights**
+
+---
+
+## ⭐ Support
+
+If you find this project useful, consider **starring the repository**.
+
+Feel free to connect for collaboration or suggestions!
