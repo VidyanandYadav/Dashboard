@@ -10,7 +10,7 @@ The dashboard allows users to dynamically analyze sales by **country, product, a
 ## 🚀 Live Demo
 
 🔗 **Streamlit App:**
-https://mobile-priceprediction-004.streamlit.app/
+https://dashboard-dwj8e2xgufkbaelhtjgzgc.streamlit.app/
 
 ---
 
